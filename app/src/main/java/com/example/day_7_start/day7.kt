@@ -13,8 +13,24 @@ import androidx.compose.runtime.Composable
 
 
 //Map keyword
-fun main(){
-    val mo=listOf(1,2,3)
-    val mo1=mo.map { it*2 }
-    println(mo1)
+//fun main(){
+//    val mo=listOf(1,2,3)
+//    val mo1=mo.map { it*2 }
+//    println(mo1)
+//}
+
+//copy method
+
+fun main() {
+    // Vase objects ka list
+    val vaseList = listOf(
+        Vase(10, 5, 3)
+    )
+    // map method se har vase ka volume nikalna
+    val volumes = vaseList.map { vase ->
+        vase.height * vase.length * vase.breadth
+    }
+    println("Volumes: $volumes")
 }
+
+data class Vase(val height: Int, val length: Int, val breadth: Int)
