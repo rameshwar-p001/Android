@@ -21,16 +21,38 @@ import androidx.compose.runtime.Composable
 
 //copy method
 
+//fun main() {
+//    // Vase objects ka list
+//    val vaseList = listOf(
+//        Vase(10, 5, 3)
+//    )
+//    // map method se har vase ka volume nikalna
+//    val volumes = vaseList.map { vase ->
+//        vase.height * vase.length * vase.breadth
+//    }
+//    println("Volumes: $volumes")
+//}
+//
+//data class Vase(val height: Int, val length: Int, val breadth: Int)
+
+
+//let and nulable
+//1) Nulable
+//fun main() {
+//    var name: String? = "Rameshwar"  // Nullable String
+//    name = null // allowed
+//
+//    var city: String = "Pune" // Non-nullable String
+//    // city = null  // ❌ Error: null assign nahi kar sakte
+//}
+
+//2)Let
+
 fun main() {
-    // Vase objects ka list
-    val vaseList = listOf(
-        Vase(10, 5, 3)
-    )
-    // map method se har vase ka volume nikalna
-    val volumes = vaseList.map { vase ->
-        vase.height * vase.length * vase.breadth
+    var name: String? = "Rameshwar"
+
+    name?.let {
+        println("Name length is ${it.length}")
     }
-    println("Volumes: $volumes")
 }
 
-data class Vase(val height: Int, val length: Int, val breadth: Int)
