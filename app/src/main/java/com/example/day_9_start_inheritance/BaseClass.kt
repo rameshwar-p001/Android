@@ -21,4 +21,6 @@ open class BaseClass {
     open fun role(){
         println("Heello I'am a Head of a BaseClass ")
     }
+
+    open fun coreValue() {}
 }
