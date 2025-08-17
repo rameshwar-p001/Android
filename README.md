@@ -1,4 +1,6 @@
-## In Day-2 to 4 we learn Basic of Kotlin and Jetpack Compose 
+## In Day-2 to Day-4 we learn Basic of Kotlin and Jetpack Compose 
+## In day-7 we learn lamda expression,Map Keyword,copy method ,let and nulable
+## In day-9 we learn that inheritance and interfaces 
 ## In Day-5 Folder we build simple unit coverter app 
 
 # 📱 Unit Converter App (Jetpack Compose)
