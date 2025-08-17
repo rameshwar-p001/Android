@@ -1,7 +1,6 @@
-package com.example.day_9_start_interfaces
+package com.example.day_8_start_interfaces
 
-import com.example.day_9_start_inheritance.Secondary
-import com.example.day_9_start_inheritance.Teretery
+import com.example.day_8_start_inheritance.Secondary
 
 
 fun main() {

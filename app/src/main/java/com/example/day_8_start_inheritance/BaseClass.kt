@@ -1,4 +1,4 @@
-package com.example.day_9_start_inheritance
+package com.example.day_8_start_inheritance
 
 
 // open keyword is for accessing the class form other file
@@ -16,7 +16,7 @@ package com.example.day_9_start_inheritance
 
 //==================================================================================================================
 
-//In this we use files - 1] BaseClass.kt, 2] Secondary.kt, 3]Teretery 4] main file day9.kt
+//In this we use files - 1] BaseClass.kt, 2] Secondary.kt, 3]Teretery 4] main file day8.kt
 open class BaseClass {
     open fun role(){
         println("Heello I'am a Head of a BaseClass ")

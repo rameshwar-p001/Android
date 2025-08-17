@@ -1,4 +1,4 @@
-package com.example.day_9_start_inheritance
+package com.example.day_8_start_inheritance
 
 ////now i access the baseclass
 //// thats way i wass writen there "open BaseClass()"
@@ -17,7 +17,7 @@ package com.example.day_9_start_inheritance
 //}
 
 //=--------------------------------------------------------------------------------------------------------------------
-//In this we use files - 1] BaseClass.kt, 2] Secondary.kt, 3]Teretery 4] main file day9.kt
+//In this we use files - 1] BaseClass.kt, 2] Secondary.kt, 3]Teretery 4] main file day8.kt
 //Now for 3 level
 
 class Secondary : BaseClass() {

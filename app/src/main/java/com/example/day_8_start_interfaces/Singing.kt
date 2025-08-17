@@ -1,4 +1,4 @@
-package com.example.day_9_start_interfaces
+package com.example.day_8_start_interfaces
 
 
 interface Singing {

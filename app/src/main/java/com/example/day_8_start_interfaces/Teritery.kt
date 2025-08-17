@@ -1,6 +1,6 @@
-package com.example.day_9_start_interfaces
+package com.example.day_8_start_interfaces
 
-import com.example.day_9_start_inheritance.BaseClass
+import com.example.day_8_start_inheritance.BaseClass
 
 //class Teritery: BaseClass() {
 //    override fun role() {
